@@ -1,0 +1,16 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "swiftc_build_d",
+            "command": "swiftc",
+            "group": "build",
+            "args": [
+                "-g", "${workspaceFolder}/main.swift",
+                "-o", "${workspaceFolder}/main.o"
+            ],
+            "problemMatcher": [],
+            "detail": "Swiftc build for debug run"
+        }
+    ]
+}
